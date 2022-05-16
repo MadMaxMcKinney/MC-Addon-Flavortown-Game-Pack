@@ -3,11 +3,53 @@
 	"minecraft:item": {
 		"description": {
 			"identifier": "max:sun_staff",
-			"category": "nature"
+			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
 				"texture": "max_sun_staff"
+			},
+			"minecraft:cooldown": {
+				"duration": 10
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "max:sun_staff_on_use"
+				}
+			},
+			"minecraft:hand_equipped": true
+		},
+		"events": {
+			"max:sun_staff_on_use": {
+				"sequence": [
+					{
+						"swing": {}
+					},
+					{
+						"run_command": {
+							"command": [
+								"particle minecraft:crit ^ ^ ^1"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"playsound max:max.sunstaff.use"
+							],
+							"target": "self"
+						}
+					},
+					{
+						"run_command": {
+							"command": [
+								"time set sunrise"
+							],
+							"target": "self"
+						}
+					}
+				]
 			}
 		}
 	}

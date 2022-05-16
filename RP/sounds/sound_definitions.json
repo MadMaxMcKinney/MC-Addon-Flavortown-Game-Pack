@@ -1,3 +1,10 @@
 {
-	"sound_definitions": {}
+	"sound_definitions": {
+		"max.sunstaff.use": {
+			"category": "player",
+			"sounds": [
+				"sounds/magic_test"
+			]
+		}
+	}
 }
