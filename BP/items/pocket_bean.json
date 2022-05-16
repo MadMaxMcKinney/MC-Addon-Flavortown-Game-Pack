@@ -1,0 +1,36 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "max:pocket_bean",
+			"category": "items"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "max_pocket_bean"
+			},
+			"minecraft:on_use": {
+				"on_use": {
+					"event": "max:pocoket_bean.on_use",
+					"target": "self"
+				}
+			}
+		},
+		"events": {
+			"max:pocoket_bean.on_use": {
+				"sequence": [
+					{
+						"run_command": {
+							"command": [
+								"tellraw @s {\"rawtext\":[{\"text\":\"§eYour bean loves you\"}]}"
+							]
+						}
+					},
+					{
+						"swing": {}
+					}
+				]
+			}
+		}
+	}
+}

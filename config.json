@@ -1,0 +1,44 @@
+{
+	"type": "minecraftBedrock",
+	"name": "Mckinney Support Pack",
+	"namespace": "max",
+	"authors": [
+		"Max"
+	],
+	"targetVersion": "1.18.0",
+	"description": "A collection of mods for the fam.",
+	"experimentalGameplay": {
+		"holidayCreatorFeatures": true,
+		"creationOfCustomBiomes": false,
+		"upcomingCreatorFeatures": false,
+		"enableGameTestFramework": false,
+		"experimentalMolangFeatures": false,
+		"theWildUpdate": false,
+		"educationEdition": false
+	},
+	"packs": {
+		"behaviorPack": "./BP",
+		"resourcePack": "./RP"
+	},
+	"worlds": [
+		"./worlds/*"
+	],
+	"compiler": {
+		"plugins": [
+			"typeScript",
+			"entityIdentifierAlias",
+			"customEntityComponents",
+			"customItemComponents",
+			"customBlockComponents",
+			"customCommands",
+			"moLang",
+			[
+				"simpleRewrite",
+				{
+					"packName": "Mckinney Support Pack"
+				}
+			],
+			"formatVersionCorrection"
+		]
+	}
+}

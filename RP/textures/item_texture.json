@@ -1,0 +1,12 @@
+{
+	"resource_pack_name": "Mckinney Support Pack",
+	"texture_name": "atlas.items",
+	"texture_data": {
+		"max_pocket_bean": {
+			"textures": "textures/items/pocket-bean"
+		},
+		"max_sun_staff": {
+			"textures": "textures/items/sun_staff"
+		}
+	}
+}

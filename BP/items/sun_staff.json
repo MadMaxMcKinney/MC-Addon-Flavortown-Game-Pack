@@ -1,0 +1,14 @@
+{
+	"format_version": "1.16.100",
+	"minecraft:item": {
+		"description": {
+			"identifier": "max:sun_staff",
+			"category": "nature"
+		},
+		"components": {
+			"minecraft:icon": {
+				"texture": "max_sun_staff"
+			}
+		}
+	}
+}

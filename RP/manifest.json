@@ -1,0 +1,52 @@
+{
+	"format_version": 2,
+	"metadata": {
+		"authors": [
+			"Max"
+		],
+		"generated_with": {
+			"bridge": [
+				"2.2.9"
+			],
+			"dash": [
+				"0.8.11"
+			]
+		}
+	},
+	"header": {
+		"name": "Mckinney Support Pack",
+		"description": "A collection of mods for the fam.",
+		"min_engine_version": [
+			1,
+			18,
+			0
+		],
+		"uuid": "2968dd2e-309f-4dd4-aaff-ca236f38b825",
+		"version": [
+			1,
+			0,
+			0
+		]
+	},
+	"modules": [
+		{
+			"type": "resources",
+			"uuid": "5568dc3d-8af8-4564-9a17-85af6c1f5fd6",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	],
+	"dependencies": [
+		{
+			"uuid": "46f9a832-1571-4eb1-8f50-955bd3671830",
+			"version": [
+				1,
+				0,
+				0
+			]
+		}
+	]
+}
