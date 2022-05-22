@@ -10,6 +10,7 @@
 				"texture": "max_sun_staff"
 			},
 			"minecraft:cooldown": {
+				"category": "on_use",
 				"duration": 10
 			},
 			"minecraft:on_use": {
@@ -28,7 +29,7 @@
 					{
 						"run_command": {
 							"command": [
-								"particle minecraft:crit ^ ^ ^1"
+								"particle max:sunstaff.trigger ^ ^ ^"
 							],
 							"target": "self"
 						}
@@ -36,7 +37,7 @@
 					{
 						"run_command": {
 							"command": [
-								"playsound max:max.sunstaff.use"
+								"playsound max.sunstaff.use @s ~ ~ ~ 0.2"
 							],
 							"target": "self"
 						}
