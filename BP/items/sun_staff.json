@@ -45,7 +45,7 @@
                     {
 						"run_command": {
 							"command": [
-								"say I call upon the sun gods. I create a new day."
+								"say §eI call upon the sun gods. I create a new day."
 							],
 							"target": "self"
 						}
