@@ -42,6 +42,14 @@
 							"target": "self"
 						}
 					},
+                    {
+						"run_command": {
+							"command": [
+								"say I call upon the sun gods. I create a new day."
+							],
+							"target": "self"
+						}
+					},
 					{
 						"run_command": {
 							"command": [

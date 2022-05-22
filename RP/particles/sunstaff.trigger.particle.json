@@ -13,23 +13,13 @@
 				"type": "bezier",
 				"input": "variable.particle_random_2",
 				"horizontal_range": 1,
-				"nodes": [
-					0,
-					2.46,
-					0,
-					0
-				]
+				"nodes": [0, 2.46, 0, 0]
 			},
 			"variable.size_curve": {
 				"type": "bezier",
 				"input": "variable.particle_age",
 				"horizontal_range": "variable.particle_lifetime",
-				"nodes": [
-					0,
-					0,
-					0.26,
-					0.03
-				]
+				"nodes": [0, 0, 0.26, 0.03]
 			}
 		},
 		"components": {
@@ -49,29 +39,16 @@
 			},
 			"minecraft:particle_initial_speed": 4,
 			"minecraft:particle_motion_dynamic": {
-				"linear_acceleration": [
-					0.2,
-					"Math.random(-1, 5)",
-					0.2
-				]
+				"linear_acceleration": [0.2, "Math.random(-1, 5)", 0.2]
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": [
-					"variable.size_curve",
-					"variable.size_curve"
-				],
+				"size": ["variable.size_curve", "variable.size_curve"],
 				"facing_camera_mode": "rotate_xyz",
 				"uv": {
 					"texture_width": 16,
 					"texture_height": 16,
-					"uv": [
-						0,
-						0
-					],
-					"uv_size": [
-						1,
-						1
-					]
+					"uv": [0, 0],
+					"uv_size": [16, 16]
 				}
 			},
 			"minecraft:particle_appearance_tinting": {
