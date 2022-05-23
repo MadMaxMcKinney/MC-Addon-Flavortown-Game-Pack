@@ -29,7 +29,7 @@
 					{
 						"run_command": {
 							"command": [
-								"particle max:sunstaff.trigger ^ ^ ^"
+								"particle max:sun_staff.use_particle ^ ^ ^"
 							],
 							"target": "self"
 						}
@@ -37,12 +37,12 @@
 					{
 						"run_command": {
 							"command": [
-								"playsound max.sunstaff.use @s ~ ~ ~ 0.2"
+								"playsound max.sun_staff.sound @s ~ ~ ~ 0.2"
 							],
 							"target": "self"
 						}
 					},
-                    {
+					{
 						"run_command": {
 							"command": [
 								"say §eI call upon the sun gods. I create a new day."

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.16.100",
 	"sound_definitions": {
-		"max.sunstaff.use": {
+		"max.sun_staff.sound": {
 			"category": "player",
 			"sounds": [
 				"sounds/magic_test"

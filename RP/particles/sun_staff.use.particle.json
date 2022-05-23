@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "max:sunstaff.trigger",
+			"identifier": "max:sun_staff.use_particle",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
 				"texture": "textures/particle/ball"
@@ -13,13 +13,23 @@
 				"type": "bezier",
 				"input": "variable.particle_random_2",
 				"horizontal_range": 1,
-				"nodes": [0, 2.46, 0, 0]
+				"nodes": [
+					0,
+					2.46,
+					0,
+					0
+				]
 			},
 			"variable.size_curve": {
 				"type": "bezier",
 				"input": "variable.particle_age",
 				"horizontal_range": "variable.particle_lifetime",
-				"nodes": [0, -0.26, 0.27, 0]
+				"nodes": [
+					0,
+					-0.26,
+					0.27,
+					0
+				]
 			}
 		},
 		"components": {
@@ -39,16 +49,29 @@
 			},
 			"minecraft:particle_initial_speed": 1.5,
 			"minecraft:particle_motion_dynamic": {
-				"linear_acceleration": [0.1, "Math.random(-1, 9)", 0.1]
+				"linear_acceleration": [
+					0.1,
+					"Math.random(-1, 9)",
+					0.1
+				]
 			},
 			"minecraft:particle_appearance_billboard": {
-				"size": ["variable.size_curve", "variable.size_curve"],
+				"size": [
+					"variable.size_curve",
+					"variable.size_curve"
+				],
 				"facing_camera_mode": "rotate_xyz",
 				"uv": {
 					"texture_width": 16,
 					"texture_height": 16,
-					"uv": [0, 0],
-					"uv_size": [16, 16]
+					"uv": [
+						0,
+						0
+					],
+					"uv_size": [
+						16,
+						16
+					]
 				}
 			},
 			"minecraft:particle_appearance_tinting": {
