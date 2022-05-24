@@ -18,6 +18,10 @@
 					"event": "max:sun_staff_on_use"
 				}
 			},
+            "minecraft:durability": {
+                "max_durability": 100,
+                "damage_chance": {"max": 1, "min": 0}
+            },
 			"minecraft:hand_equipped": true
 		},
 		"events": {
@@ -29,35 +33,18 @@
 					{
 						"run_command": {
 							"command": [
-								"particle max:sun_staff.use_particle ^ ^ ^"
+								"function func_sun_staff_use"
 							],
 							"target": "self"
 						}
 					},
-					{
-						"run_command": {
-							"command": [
-								"playsound max.sun_staff.sound @s ~ ~ ~ 0.2"
-							],
-							"target": "self"
-						}
-					},
-					{
-						"run_command": {
-							"command": [
-								"say §eI call upon the sun gods. I create a new day."
-							],
-							"target": "self"
-						}
-					},
-					{
-						"run_command": {
-							"command": [
-								"time set sunrise"
-							],
-							"target": "self"
-						}
-					}
+                    {
+                        "damage": {
+                            "type": "durability",
+                            "amount": 1,
+                            "target": "self"
+                        }
+                    }
 				]
 			}
 		}
