@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "max:moon_staff.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  L",
+			" # ",
+			"L  "
+		],
+		"key": {
+			"L": {
+				"item": "minecraft:lapis_lazuli"
+			},
+			"#": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "max:moon_staff"
+		}
+	}
+}

@@ -2,12 +2,12 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "max:sun_staff",
+			"identifier": "max:moon_staff",
 			"category": "equipment"
 		},
 		"components": {
 			"minecraft:icon": {
-				"texture": "max_sun_staff"
+				"texture": "max_moon_staff"
 			},
 			"minecraft:cooldown": {
 				"category": "on_use",
@@ -15,7 +15,7 @@
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "max:sun_staff_on_use"
+					"event": "max:moon_staff_on_use"
 				}
 			},
             "minecraft:durability": {
@@ -25,7 +25,7 @@
 			"minecraft:hand_equipped": true
 		},
 		"events": {
-			"max:sun_staff_on_use": {
+			"max:moon_staff_on_use": {
 				"sequence": [
 					{
 						"swing": {}
@@ -33,7 +33,7 @@
 					{
 						"run_command": {
 							"command": [
-								"function func_sun_staff_use"
+								"function func_moon_staff_use"
 							],
 							"target": "self"
 						}

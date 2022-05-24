@@ -4,7 +4,13 @@
 		"max.sun_staff.sound": {
 			"category": "player",
 			"sounds": [
-				"sounds/magic_test"
+				"sounds/sun_staff_use"
+			]
+		},
+        "max.moon_staff.sound": {
+			"category": "player",
+			"sounds": [
+				"sounds/moon_staff_use"
 			]
 		}
 	}
