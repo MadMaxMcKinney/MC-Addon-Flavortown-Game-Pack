@@ -6,11 +6,14 @@
 			"category": "equipment"
 		},
 		"components": {
+            "minecraft:display_name": {
+                "value": "§eSun Staff"
+            },
 			"minecraft:icon": {
 				"texture": "max_sun_staff"
 			},
 			"minecraft:cooldown": {
-				"category": "on_use",
+				"category": "sun_staff_on_use",
 				"duration": 10
 			},
 			"minecraft:on_use": {

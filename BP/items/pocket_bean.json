@@ -6,6 +6,9 @@
 			"category": "items"
 		},
 		"components": {
+            "minecraft:display_name": {
+                "value": "§ePocket Bean"
+            },
 			"minecraft:icon": {
 				"texture": "max_pocket_bean"
 			},

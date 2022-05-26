@@ -6,11 +6,14 @@
 			"category": "equipment"
 		},
 		"components": {
+            "minecraft:display_name": {
+                "value": "§9Moon Staff \nThis is a test for the lore feature"
+            },
 			"minecraft:icon": {
 				"texture": "max_moon_staff"
 			},
 			"minecraft:cooldown": {
-				"category": "on_use",
+				"category": "moon_staff_on_use",
 				"duration": 10
 			},
 			"minecraft:on_use": {
