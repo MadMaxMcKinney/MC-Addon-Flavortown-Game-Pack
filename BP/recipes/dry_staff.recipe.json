@@ -1,0 +1,30 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "max:dry_staff.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  G",
+			" # ",
+			"I  "
+		],
+		"key": {
+            "G": {
+                "item": "minecraft:glowstone_dust"
+            },
+			"I": {
+				"item": "minecraft:iron_ignot"
+			},
+			"#": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "max:dry_staff"
+		}
+	}
+}

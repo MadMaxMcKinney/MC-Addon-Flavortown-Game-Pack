@@ -7,7 +7,7 @@
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§bRain Staff"
+                "value": "§aRain Staff"
             },
 			"minecraft:icon": {
 				"texture": "max_rain_staff"

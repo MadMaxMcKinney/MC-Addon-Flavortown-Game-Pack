@@ -1,0 +1,27 @@
+{
+	"format_version": "1.12",
+	"minecraft:recipe_shaped": {
+		"description": {
+			"identifier": "max:rain_staff.recipe"
+		},
+		"tags": [
+			"crafting_table"
+		],
+		"pattern": [
+			"  L",
+			" # ",
+			"#  "
+		],
+		"key": {
+            "L": {
+                "item": "minecraft:leaves"
+            },
+			"#": {
+				"item": "minecraft:stick"
+			}
+		},
+		"result": {
+			"item": "max:rain_staff"
+		}
+	}
+}
