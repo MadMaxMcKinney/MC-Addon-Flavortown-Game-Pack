@@ -13,6 +13,9 @@
 		},
         "max_rain_staff": {
 			"textures": "textures/items/rain_staff"
+		},
+        "max_dry_staff": {
+			"textures": "textures/items/dry_staff"
 		}
 	}
 }

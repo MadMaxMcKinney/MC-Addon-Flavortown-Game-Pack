@@ -2,23 +2,23 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "max:rain_staff",
+			"identifier": "max:dry_staff",
 			"category": "equipment"
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§bRain Staff"
+                "value": "§7Dry Staff"
             },
 			"minecraft:icon": {
-				"texture": "max_rain_staff"
+				"texture": "max_dry_staff"
 			},
 			"minecraft:cooldown": {
-				"category": "rain_staff_on_use",
+				"category": "dry_staff_on_use",
 				"duration": 10
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "max:rain_staff_on_use"
+					"event": "max:dry_staff_on_use"
 				}
 			},
             "minecraft:durability": {
@@ -27,7 +27,7 @@
 			"minecraft:hand_equipped": true
 		},
 		"events": {
-			"max:rain_staff_on_use": {
+			"max:dry_staff_on_use": {
 				"sequence": [
 					{
 						"swing": {}
@@ -35,7 +35,7 @@
 					{
 						"run_command": {
 							"command": [
-								"function func_rain_staff_use"
+								"function func_dry_staff_use"
 							],
 							"target": "self"
 						}

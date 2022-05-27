@@ -2,7 +2,7 @@
 	"format_version": "1.10.0",
 	"particle_effect": {
 		"description": {
-			"identifier": "max:rain_staff.use_particle",
+			"identifier": "max:dry_staff.use_particle",
 			"basic_render_parameters": {
 				"material": "particles_alpha",
 				"texture": "textures/particle/ball"
@@ -13,19 +13,21 @@
 				"type": "bezier",
 				"input": "variable.particle_age",
 				"horizontal_range": "variable.particle_lifetime",
-				"nodes": [0, 0, 0.11, 0]
+				"nodes": [0, 0, 0.22, 0]
 			}
 		},
 		"components": {
 			"minecraft:emitter_rate_instant": {
-				"num_particles": 80
+				"num_particles": 90
 			},
 			"minecraft:emitter_lifetime_once": {
 				"active_time": 1
 			},
 			"minecraft:emitter_shape_disc": {
-				"radius": 2,
-				"direction": "outwards"
+				"offset": [0, 0.1, 0],
+				"radius": 2.5,
+				"surface_only": true,
+				"direction": "inwards"
 			},
 			"minecraft:particle_lifetime_expression": {
 				"max_lifetime": "Math.random(0.3, 2)"
@@ -33,7 +35,7 @@
 			"minecraft:particle_expire_if_not_in_blocks": ["minecraft:air"],
 			"minecraft:particle_initial_speed": 1.5,
 			"minecraft:particle_motion_dynamic": {
-				"linear_acceleration": [0.1, "Math.random(-1, 4)", 0.1]
+				"linear_acceleration": [0.1, 0.1, 0.1]
 			},
 			"minecraft:particle_appearance_billboard": {
 				"size": ["variable.size_curve", "variable.size_curve"],
