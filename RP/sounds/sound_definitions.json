@@ -12,6 +12,18 @@
 			"sounds": [
 				"sounds/moon_staff_use"
 			]
+		},
+        "max.rain_staff.sound": {
+			"category": "player",
+			"sounds": [
+				"sounds/rain_staff_use"
+			]
+		},
+        "max.dry_staff.sound": {
+			"category": "player",
+			"sounds": [
+				"sounds/dry_staff_use"
+			]
 		}
 	}
 }

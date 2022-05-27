@@ -2,23 +2,23 @@
 	"format_version": "1.16.100",
 	"minecraft:item": {
 		"description": {
-			"identifier": "max:sun_staff",
+			"identifier": "max:rain_staff",
 			"category": "equipment"
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§eSun Staff"
+                "value": "§9Rain Staff"
             },
 			"minecraft:icon": {
-				"texture": "max_sun_staff"
+				"texture": "max_rain_staff"
 			},
 			"minecraft:cooldown": {
-				"category": "sun_staff_on_use",
+				"category": "rain_staff_on_use",
 				"duration": 10
 			},
 			"minecraft:on_use": {
 				"on_use": {
-					"event": "max:sun_staff_on_use"
+					"event": "max:rain_staff_on_use"
 				}
 			},
             "minecraft:durability": {
@@ -27,7 +27,7 @@
 			"minecraft:hand_equipped": true
 		},
 		"events": {
-			"max:sun_staff_on_use": {
+			"max:rain_staff_on_use": {
 				"sequence": [
 					{
 						"swing": {}
@@ -35,7 +35,7 @@
 					{
 						"run_command": {
 							"command": [
-								"function func_sun_staff_use"
+								"function func_rain_staff_use"
 							],
 							"target": "self"
 						}
