@@ -7,7 +7,7 @@
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§6Sun Staff\nLegendary\nLet's start a new day."
+                "value": "§6Sun Staff\nLegendary\n§fLet's start a new day."
             },
 			"minecraft:icon": {
 				"texture": "max_sun_staff"
