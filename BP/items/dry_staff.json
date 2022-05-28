@@ -7,7 +7,7 @@
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§7Dry Staff"
+                "value": "§aDry Staff\nUncommon\nRain rain go away..."
             },
 			"minecraft:icon": {
 				"texture": "max_dry_staff"

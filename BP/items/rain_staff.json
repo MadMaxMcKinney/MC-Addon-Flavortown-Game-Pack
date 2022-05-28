@@ -7,7 +7,7 @@
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§aRain Staff"
+                "value": "§aRain Staff\nUncommon\nMy knee hurts..."
             },
 			"minecraft:icon": {
 				"texture": "max_rain_staff"

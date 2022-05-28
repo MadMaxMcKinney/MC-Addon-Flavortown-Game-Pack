@@ -7,7 +7,7 @@
 		},
 		"components": {
             "minecraft:display_name": {
-                "value": "§9Moon Staff"
+                "value": "§6Moon Staff\nLegendary\nThe night calls."
             },
 			"minecraft:icon": {
 				"texture": "max_moon_staff"
